@@ -1,0 +1,15 @@
+<template>
+  <div id="copyright">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2019 by www.people.com.cn. all rights reserved</div>
+</template>
+
+<style original>
+  #copyright {
+    width: 980px;
+    margin: 0px auto;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 30px;
+    clear: both;
+  }
+</style>

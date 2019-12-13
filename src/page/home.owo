@@ -1,0 +1,110 @@
+<template lang="pug">
+.home
+  img.bg(src="@|bg.jpg|")
+  .box
+    h1 评选简介
+    .text-box-1
+      p &nbsp;&nbsp;请您在备选选项前的框内打勾，最多不得超过10项请您在备选选项前的框内打勾，最多不得超过10项请您在备选选项前的框内打勾，最多不得超过10项请您在备选选项前的框内打勾，最多不得。<br>&nbsp;&nbsp;请您在备选选项前的框内打勾，最多不得超过10项请您在备选选项前的框内打勾，最多不得超过10项请您在备选选项前的框内打勾，最多不得超过10项请您在备选选项前的框内打勾，最多不得。
+    .text-box-2
+      h2 投票说明:
+      p 1、请您在备选选项前的框内打勾，最多不得超过10项。<br> 2、投票起止时间：2018年12月14日-12月20日。
+    .bottom-text 2019国际十大新闻评选
+  .w1000
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    plug(_name="card" _src="./src/module/card.owo")
+    <h6>
+      <img src="http://tv.people.com.cn/img/MAIN/2018/04/118224/images/icon01.gif" width="150" height="60" alt="" class="button1">
+      <img src="http://tv.people.com.cn/img/MAIN/2018/04/118224/images/icon02.gif" width="150" height="60" id="reset">
+    </h6>
+  plug(_name="copyright" _src="https://owo.ink/public/af7930a60027587a63d8e526744f4ebc.page")
+</template>
+
+
+<style lang="less">
+.bg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.box {
+  width: 1003px;
+  height: 661px;
+  background-image: url("@|box.png|");
+  margin: 0 auto;
+  margin-top: -80px;
+  z-index: 9;
+  position: relative;
+  h1 {
+    position: absolute;
+    width: 160px;
+    color: white;
+    height: 53px;
+    line-height: 53px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 14px;
+    font-size: 24px;
+  }
+  .text-box-1 {
+    font-size: 23px;
+    line-height: 43px;
+    position: absolute;
+    width: 800px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 90px;
+  }
+  .text-box-2 {
+    font-size: 21px;
+    line-height: 30px;
+    position: absolute;
+    width: 800px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 428px;
+    h2 {
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 20px;
+      color: #4070c0;
+    }
+  }
+  .bottom-text {
+    position: absolute;
+    bottom: 17px;
+    line-height: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 27px;
+  }
+}
+.fl {
+  float: left;
+}
+#copyright {
+  margin-top: 100px;
+}
+.w1000 h6 {
+  text-align: center;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  img {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+}
+</style>

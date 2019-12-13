@@ -1,0 +1,59 @@
+<template lang="pug">
+.card.clear
+  img.left.fl(src="http://www.people.com.cn/NMediaFile/2019/1212/MAIN201912121408390035334083279.jpg" width="355" height="265")
+  .right.fl
+    h1 标题标题标题标题标题标题标题标题标题标题标题
+    p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘。摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要。
+  h3
+    input(type="checkbox" name="voteid1" class="checkbox1" value="44525")
+    input(name="tp" type="button" value="投票")
+</template>
+
+
+<style lang="less">
+.card {
+  padding: 65px 90px;
+  position: relative;
+  background-color: white;
+}
+.right {
+  width: 410px;
+  padding-left: 55px;
+  height: 100%;
+  overflow: hidden;
+  h1 {
+    line-height: 27px;
+    color: #4070bf;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #030303;
+    height: 144px;
+    overflow: hidden;
+  }
+}
+h3 {
+  position: absolute;
+  right: 100px;
+  bottom: 62px;
+}
+.checkbox1 {
+  border-radius: 12px;
+  width: 20px;
+  background-color: transparent;
+  height: 20px;
+  overflow: hidden;
+  float: left;
+  margin: 2px;
+}
+input[type="button"] {
+  background-color: transparent;
+  border: none;
+  display: block;
+  float: left;
+  line-height: 25px;
+  padding-left: 10px;
+}
+</style>

@@ -1,0 +1,205 @@
+body, html, .owo, .page-box {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+
+a {
+  color: #333;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+img {
+  border: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.card {
+  padding: 65px 90px;
+  position: relative;
+  background-color: white;
+}
+
+.card .right {
+  width: 410px;
+  padding-left: 55px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.card .right h1 {
+  line-height: 27px;
+  color: #4070bf;
+  margin-bottom: 20px;
+}
+
+.card .right p {
+  font-size: 14px;
+  line-height: 24px;
+  color: #030303;
+  height: 144px;
+  overflow: hidden;
+}
+
+.card h3 {
+  position: absolute;
+  right: 100px;
+  bottom: 62px;
+}
+
+.card .checkbox1 {
+  border-radius: 12px;
+  width: 20px;
+  background-color: transparent;
+  height: 20px;
+  overflow: hidden;
+  float: left;
+  margin: 2px;
+}
+
+.card input[type="button"] {
+  background-color: transparent;
+  border: none;
+  display: block;
+  float: left;
+  line-height: 25px;
+  padding-left: 10px;
+}
+#copyright {
+  width: 980px;
+  margin: 0px auto;
+  font-size: 12px;
+  text-align: center;
+  padding: 20px 0;
+  line-height: 30px;
+  clear: both;
+}
+.bg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.box {
+  width: 1003px;
+  height: 661px;
+  background-image: url("../resource/box.png");
+  margin: 0 auto;
+  margin-top: -80px;
+  z-index: 9;
+  position: relative;
+}
+
+.box h1 {
+  position: absolute;
+  width: 160px;
+  color: white;
+  height: 53px;
+  line-height: 53px;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 14px;
+  font-size: 24px;
+}
+
+.box .text-box-1 {
+  font-size: 23px;
+  line-height: 43px;
+  position: absolute;
+  width: 800px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 90px;
+}
+
+.box .text-box-2 {
+  font-size: 21px;
+  line-height: 30px;
+  position: absolute;
+  width: 800px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 428px;
+}
+
+.box .text-box-2 h2 {
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 20px;
+  color: #4070c0;
+}
+
+.box .bottom-text {
+  position: absolute;
+  bottom: 17px;
+  line-height: 40px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 27px;
+}
+
+.fl {
+  float: left;
+}
+
+#copyright {
+  margin-top: 100px;
+}
+
+.w1000 h6 {
+  text-align: center;
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.w1000 h6 img {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
